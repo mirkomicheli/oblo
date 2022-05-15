@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 a:link{
-    color:white;
+    color:black;
     text-decoration: none;
 }
 
@@ -16,10 +16,17 @@ a:hover{
 .item a:visited{
     color: white;
 }
+.item a{
+    color: white;
+}
 
 h1, h2{
     padding: 0;
-    margin:5vh;
+    margin-left:5vh;
+}
+
+.box h1{
+    padding-top:3vh;
 }
 
 p{
@@ -59,8 +66,7 @@ body{
     font-family:"roboto mono", sans-serif;
     letter-spacing: 0.1em;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 .container, .menu{
@@ -144,28 +150,43 @@ body{
 
 
 #pic01{
-    background-image : url("images/oblo_home_logo.png")
+    background-image : url("images/oblo_gallery_1.png")
 }
 #pic02{
-    background-image : url("images/oblo_about_02.jpeg")
+    background-image : url("images/oblo_gallery_2.png")
 }
 #pic03{
-    background-image : url("images/oblo_about_03.jpeg")
+    background-image : url("images/oblo_gallery_3.png")
 }
 #pic04{
-    background-image : url("images/oblo_about_04.jpg")
+    background-image : url("images/oblo_gallery_4.png")
 }
 #pic05{
-    background-image : url("images/oblo_about_05.png")
+    background-image : url("images/oblo_gallery_5.png")
 }
 #pic06{
-    background-image : url("images/oblo_about_06.png")
+    background-image : url("images/oblo_gallery_6.png")
 }
-
+#pic07{
+    background-image : url("images/oblo_gallery_7.png")
+}
+#pic08{
+    background-image : url("images/oblo_gallery_8.png")
+}
+#pic09{
+    background-image : url("images/oblo_gallery_9.png")
+}
+#pic10{
+    background-image : url("images/oblo_gallery_10.png")
+}
 /* sezione 03 ---> Menu */
 
 .menuContainer .picturebox02 .picture{
     height: fit-content;
+}
+.menuContainer .picture{
+border-style: solid;
+border-width: 1px;
 }
 
 /* sezione 04 ---> DesignPhases */
@@ -281,14 +302,15 @@ body{
 #About06{
     background-image : url("images/oblo_about_06.png")
 }
-/*-----footer
 
 .footer{
     height: 50px;
-    background-color:black;
-    margin-top: 30px;
+    background-color:white;
+    margin-top: 3vh;
 
 
 }
------*/
+
+
+
 

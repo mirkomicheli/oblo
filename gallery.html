@@ -25,7 +25,17 @@
                     <div class="galleryPic" id="pic05"></div></div>
                 <div class="image" id="Gallery06" onclick="IMGexpand(this.id)">
                     <div class="galleryPic" id="pic06"></div></div>
+                <div class="image" id="Gallery06" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic07"></div></div>
+                <div class="image" id="Gallery09" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic08"></div></div>
+                <div class="image" id="Gallery09" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic09"></div></div>
+                <div class="image" id="Gallery10" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic10"></div></div>
             </div>
+            <div class="footer"></div>
+
         </body>
 
 
@@ -36,7 +46,7 @@
             
         function IMGexpand(id) {
               if(orientation === "landscape-primary"){
-                    if(j == 0){ 
+                    if(this.j == 0){ 
                 document.getElementById(id).style.width = '98vh'; 
                 document.getElementById(id).style.height = '98vh'; 
                 this.j = 1;
@@ -46,7 +56,7 @@
                 this.j = 0;
              } 
             } else {
-                if(j == 0){ 
+                if(this.j == 0){ 
                 document.getElementById(id).style.width = '94vw'; 
                 document.getElementById(id).style.height = '94vw'; 
                 this.j = 1;
