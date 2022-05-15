@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Oblò - Gallery</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="media_q.css">
+        </head>
+        <body >
+            <div class="header">
+                <div class="title"><h2>Gallery</h2></div>  
+                    <div class="logo">
+                        <a href="index.html"><img class="logo" src="images/oblo_home_logo.png" alt="logo" ></a>
+                </div>
+            </div>
+            <div class="galleryBox">
+                <div class="image" id="Gallery01" onclick="IMGexpand(this.id)"> 
+                    <div class="galleryPic" id="pic01"></div></div>
+                <div class="image" id="Gallery02" onclick="IMGexpand(this.id)"> 
+                    <div class="galleryPic" id="pic02"></div></div>
+                <div class="image" id="Gallery03" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic03"></div></div>
+                <div class="image" id="Gallery04" onclick="IMGexpand(this.id)" >
+                    <div class="galleryPic" id="pic04"></div></div>
+                <div class="image" id="Gallery05" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic05"></div></div>
+                <div class="image" id="Gallery06" onclick="IMGexpand(this.id)">
+                    <div class="galleryPic" id="pic06"></div></div>
+            </div>
+        </body>
+
+
+
+        <script type="text/javascript">
+            var j = 0;
+            var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
+            
+        function IMGexpand(id) {
+              if(orientation === "landscape-primary"){
+                    if(j == 0){ 
+                document.getElementById(id).style.width = '98vh'; 
+                document.getElementById(id).style.height = '98vh'; 
+                this.j = 1;
+            } else{                
+                document.getElementById(id).style.width = '30vh'; 
+                document.getElementById(id).style.height = '30vh'; 
+                this.j = 0;
+             } 
+            } else {
+                if(j == 0){ 
+                document.getElementById(id).style.width = '94vw'; 
+                document.getElementById(id).style.height = '94vw'; 
+                this.j = 1;
+            } else{                
+                document.getElementById(id).style.width = '30vw'; 
+                document.getElementById(id).style.height = '30vw'; 
+                this.j = 0;}
+            }
+        }  
+
+        </script>
+    </html>

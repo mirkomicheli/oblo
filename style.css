@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.item a:visited{
+    color: white;
+}
+
+h1{
+    padding: 0;
+    margin:5%;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header{
+    width: 100vW;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.header .logo{
+    height:90%;
+    margin-right:10px;
+}
+.header .logo:hover{
+    cursor: pointer;
+}
+
+.header .title{
+    color:white;
+    margin-right: 10px;
+}
+
+/*-----------HOME------------*/
+
+body{
+    background-color:white;
+    font-family:"roboto mono", sans-serif;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container, .menu{
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    font-size:1.3em;
+}
+
+.menu{
+    z-index: -1;
+    transform: scale(0.9);
+}
+
+.toggle{
+    height: 30vh;
+    width: 30vh;
+    background-color:black;
+    background-image: url("images/oblo_home_logo.png");
+    background-position: center;
+    background-size: 75%;
+    background-repeat:no-repeat;
+}
+.toggle:hover{
+    transform: scale(1.01)
+}
+
+
+.toggle .text{
+    position: relative;
+    text-align: center;
+}
+
+.item{
+    width: 30vh;
+    height: 30vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    position:absolute;
+}
+
+/* sezione 02 ---> Gallery */
+
+.galleryBox{
+    width: 100vh;
+    margin:auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap:2vw;
+    row-gap: 2vw;
+}
+
+.image{
+    height: 30vh;
+    width: 30vh;
+    background-color: black;
+    transition: 0.5s;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleryPic{
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#pic01{
+    background-image : url("images/oblo_home_logo.png")
+}
+#pic02{
+    background-image : url("images/oblo_about_02.jpeg")
+}
+#pic03{
+    background-image : url("images/oblo_about_03.jpeg")
+}
+#pic04{
+    background-image : url("images/oblo_about_04.jpg")
+}
+#pic05{
+    background-image : url("images/oblo_about_05.png")
+}
+#pic06{
+    background-image : url("images/oblo_about_06.png")
+}
+
+/* sezione 04 ---> DesignPhases */
+
+.dpContainer, .abContainer{
+    width: 100vh;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#box02, #box04{
+    background-color:black;
+    color: white;
+}
+#box03, #box05{
+    background-color:white;
+    color: black;
+}
+
+.picturebox02, .picturebox03{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picturebox03 .picture {
+    width: 30vh;
+    height: 30vh;
+}
+
+.picturebox02 .picture{
+    width:50vh;
+    height: 50vh;
+}
+
+/*.picturebox .picture:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}*/
+
+.picture{
+    width: 100vh;
+    height:100vh;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Proposal01 {
+    background-image : url("images/oblo_designphases_01.png")
+}
+#Proposal02 {
+    background-image : url("images/oblo_designphases_02.png")
+}
+#Proposal03 {
+    background-image : url("images/oblo_designphases_03.png")
+}
+#Proposal04 {
+    background-image : url("images/oblo_designphases_04.png")
+}
+#Proposal05 {
+    background-image : url("images/oblo_designphases_05.png")
+}
+
+#Realization01{
+    background-image : url("images/oblo_designphases_09.png")
+}
+#Realization02{
+    background-image : url("images/oblo_designphases_07.png")
+}
+#Realization03{
+    background-image : url("images/oblo_designphases_08.png")
+}
+#Logo01{
+    background-image : url("images/oblo_designphases_06.png")
+}
+#Logo02{
+    background-image : url("images/oblo_designphases_10.png")
+}
+#Logo03{
+    background-image : url("images/oblo_designphases_11.png")
+}
+#Logo04{
+    background-image : url("images/oblo_designphases_12.png")
+}
+#Logo05{
+    background-image : url("images/oblo_designphases_13.png")
+}
+#Logo06{
+    background-image : url("images/oblo_designphases_14.png")
+}
+#Logo07{
+    background-image : url("images/oblo_designphases_15.png")
+}
+
+
+#About01{
+    background-image : url("images/oblo_home_logo.png")
+}
+#About02{
+    background-image : url("images/oblo_about_02.jpeg")
+}
+#About03{
+    background-image : url("images/oblo_about_03.jpeg")
+}
+#About04{
+    background-image : url("images/oblo_about_04.jpg")
+}
+#About05{
+    background-image : url("images/oblo_about_05.png")
+}
+#About06{
+    background-image : url("images/oblo_about_06.png")
+}
+/*-----footer
+
+.footer{
+    height: 50px;
+    background-color:black;
+    margin-top: 30px;
+
+
+}
+-----*/

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Oblò - Home</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="media_q.css">
+        </head>
+        <body>
+            <div class="container" onclick="expand()">
+                <div class="toggle" id="toggle" ></div>
+                <div class="menu" id="menu">
+
+
+                    <div class="item">
+                        <div class="text">
+                            <a href="about.html">ABOUT</a>
+                        </div>
+                    </div>
+                   
+                    <div class="item">
+                        <div class="text">
+                            <a href="gallery.html">GALLERY</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="text">
+                            <a href="designPhases.html">DESIGN<br>PHASES</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="text">
+                            <a href="#">MENU</a>
+                        </div>
+                    </div>
+            </div>
+
+            </div>
+
+        </body>
+
+        <script type="text/javascript">
+            var j = 0;
+            var i = document.getElementById("menu").childNodes;
+
+            var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
+
+
+            function expand() {
+                if(orientation === "landscape-primary"){
+                if (j == 0) {
+                    document.getElementById("menu").style.transform='scale(1)';
+                    i[1].style.transform = 'translateY(-33vh)';
+                    i[3].style.transform = 'translateX(33vh)';
+                    i[5].style.transform = 'translateY(33vh)';
+                    i[7].style.transform = 'translateX(-33vh)';
+
+                    j = 1;
+                } else {
+                    document.getElementById("menu").style.transform='scale(0.9)';
+                    i[1].style.transform = 'translateY(0)';
+                    i[3].style.transform = 'translate(0)';
+                    i[5].style.transform = 'translate(0)';
+                    i[7].style.transform = 'translateY(0)';
+
+                    j = 0;
+                }
+            } else {
+                if  (j == 0) {
+                    document.getElementById("menu").style.transform='scale(1)';
+                    i[1].style.transform = 'translateY(-33vw)';
+                    i[3].style.transform = 'translateX(33vw)';
+                    i[5].style.transform = 'translateY(33vw)';
+                    i[7].style.transform = 'translateX(-33vw)';
+
+                    j = 1;
+                } else{
+                    document.getElementById("menu").style.transform='scale(0.9)';
+                    i[1].style.transform = 'translateY(0)';
+                    i[3].style.transform = 'translate(0)';
+                    i[5].style.transform = 'translate(0)';
+                    i[7].style.transform = 'translateY(0)';
+
+                    j = 0;
+                }
+            }
+            }
+        </script>
+
+    </html>

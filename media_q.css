@@ -1,0 +1,105 @@
+@media (orientation: portrait){
+
+ p{
+    font-size: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    h1{
+        font-size: 4em;
+        margin:10%;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    .header{
+        width: 100vw;
+        height: 100px;
+        background-color:black;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+    }
+
+ .container, .menu{
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    font-size:48px;
+    }
+.toggle{
+    height: 30vw;
+    width: 30vw;
+    background-color:black;
+}
+
+.item{
+    width: 30vw;
+    height: 30vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    position:absolute;
+}
+
+/* sezione 02 ---> Gallery */
+
+.galleryBox{
+    width: 95vw;
+    margin:auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex start;
+    column-gap:2vw;
+    row-gap: 2vw;
+}
+
+.image{
+    height: 30vw;
+    width: 30vw;
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+/* sezione 04 ---> DesignPhases */
+
+.dpContainer, .abContainer{
+    width: 100vw;
+    height:100vw;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right:auto;
+}
+.picture{
+    width: 100vw;
+    height:100vw;
+
+}
+
+.picturebox02, .picturebox03{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.picturebox03 .picture, .picturebox02 .picture {
+    width: 100vw;
+    height: 100vw;
+}
+
+}
+
