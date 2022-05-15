@@ -17,21 +17,20 @@ a:hover{
     color: white;
 }
 
-h1{
+h1, h2{
     padding: 0;
-    margin:5%;
+    margin:5vh;
 }
 
 p{
     padding-top: 20px;
     font-size: 1.2em;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
 .header{
-    width: 100vW;
     height: 50px;
     background-color:black;
     display: flex;
@@ -50,6 +49,7 @@ p{
 .header .title{
     color:white;
     margin-right: 10px;
+    width: fit-content;
 }
 
 /*-----------HOME------------*/
@@ -162,9 +162,15 @@ body{
     background-image : url("images/oblo_about_06.png")
 }
 
+/* sezione 03 ---> Menu */
+
+.menuContainer .picturebox02 .picture{
+    height: fit-content;
+}
+
 /* sezione 04 ---> DesignPhases */
 
-.dpContainer, .abContainer{
+.dpContainer, .abContainer, .menuContainer{
     width: 100vh;
     margin-top: 0;
     margin-left: auto;
@@ -285,3 +291,4 @@ body{
 
 }
 -----*/
+
