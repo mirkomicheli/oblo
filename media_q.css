@@ -112,3 +112,8 @@
 
 }
 
+.menuContainer .picture{
+    height: 100%;
+    border-right: none;
+    border-width: 2px;
+    }
