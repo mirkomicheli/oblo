@@ -307,8 +307,17 @@ border-width: 2px;
     height: 50px;
     background-color:white;
     margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+h3{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 10px;
+    text-align:center;
 }
 
 
