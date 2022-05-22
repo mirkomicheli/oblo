@@ -60,6 +60,7 @@
     width: 95vw;
     margin:auto;
     margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex start;
@@ -130,6 +131,10 @@
     width: 90vw;
     height: 90vw;
     margin-bottom: 200px;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 }
 
