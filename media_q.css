@@ -77,7 +77,7 @@
 
 /* sezione 04 ---> DesignPhases */
 
-.dpContainer, .abContainer, .menuContainer{
+.dpContainer, .abContainer, .menuContainer, .evContainer{
     width: 100vw;
     margin-top: 0;
     margin-left: auto;
@@ -127,8 +127,9 @@
         /*---sezione eventi---*/
 
 .eventBox{
-    width: 100vw;
-    height: 100vw;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 200px;
 }
 }
 
