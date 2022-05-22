@@ -150,34 +150,76 @@ body{
 
 
 #pic01{
-    background-image : url("images/oblo_gallery_1.png")
+    background-image : url("images/oblo_gallery_01.JPG")
 }
 #pic02{
-    background-image : url("images/oblo_gallery_2.png")
+    background-image : url("images/oblo_gallery_02.JPG")
 }
 #pic03{
-    background-image : url("images/oblo_gallery_3.png")
+    background-image : url("images/oblo_gallery_03.JPG")
 }
 #pic04{
-    background-image : url("images/oblo_gallery_4.png")
+    background-image : url("images/oblo_gallery_04.JPG")
 }
 #pic05{
-    background-image : url("images/oblo_gallery_5.png")
+    background-image : url("images/oblo_gallery_05.JPG")
 }
 #pic06{
-    background-image : url("images/oblo_gallery_6.png")
+    background-image : url("images/oblo_gallery_06.JPG")
 }
 #pic07{
-    background-image : url("images/oblo_gallery_7.png")
+    background-image : url("images/oblo_gallery_07.JPG")
 }
 #pic08{
-    background-image : url("images/oblo_gallery_8.png")
+    background-image : url("images/oblo_gallery_08.JPG")
 }
 #pic09{
-    background-image : url("images/oblo_gallery_9.png")
+    background-image : url("images/oblo_gallery_09.JPG")
 }
 #pic10{
-    background-image : url("images/oblo_gallery_10.png")
+    background-image : url("images/oblo_gallery_10.JPG")
+}
+#pic11{
+    background-image : url("images/oblo_gallery_11.JPG")
+}
+#pic12{
+    background-image : url("images/oblo_gallery_12.JPG")
+}
+#pic13{
+    background-image : url("images/oblo_gallery_13.JPG")
+}
+#pic14{
+    background-image : url("images/oblo_gallery_14.JPG")
+}
+#pic15{
+    background-image : url("images/oblo_gallery_15.JPG")
+}
+#pic16{
+    background-image : url("images/oblo_gallery_16.JPG")
+}
+#pic17{
+    background-image : url("images/oblo_gallery_17.JPG")
+}
+#pic18{
+    background-image : url("images/oblo_gallery_18.JPG")
+}
+#pic19{
+    background-image : url("images/oblo_gallery_19.JPG")
+}
+#pic20{
+    background-image : url("images/oblo_gallery_20.JPG")
+}
+#pic21{
+    background-image : url("images/oblo_gallery_21.JPG")
+}
+#pic22{
+    background-image : url("images/oblo_gallery_22.JPG")
+}
+#pic23{
+    background-image : url("images/oblo_gallery_23.JPG")
+}
+#pic24{
+    background-image : url("images/oblo_gallery_24.JPG")
 }
 /* sezione 03 ---> Menu */
 
@@ -320,6 +362,18 @@ h3{
     text-align:center;
 }
 
+/*---sezione eventi---*/
+
+.eventBox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh;
+    height: 100vh;
+    background-image: url("images/oblo_eventis_01.jpeg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 

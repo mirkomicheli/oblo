@@ -124,5 +124,11 @@
         text-align:center;
     }
 
+        /*---sezione eventi---*/
+
+.eventBox{
+    width: 100vw;
+    height: 100vw;
+}
 }
 
